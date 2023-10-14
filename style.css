@@ -40,7 +40,6 @@ a {
     align-items: center;
     padding: 50px;
     background-color: #1F2937;
-    flex-direction: column;
 }
 
 .hero {
@@ -52,4 +51,9 @@ a {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50%;
 }
