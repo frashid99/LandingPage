@@ -1,7 +1,55 @@
 .header {
     display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 60px;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
 }
 
 li {
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
