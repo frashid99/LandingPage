@@ -131,6 +131,7 @@ button {
     margin: 60px 120px;
     border-style: hidden;
     border-radius: 10px;
+    flex: auto;
 }
 
 .cta-box {
@@ -151,4 +152,17 @@ button {
 }
 .cta-subtext {
     color: #F9FAF8;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: whitesmoke;
 }
